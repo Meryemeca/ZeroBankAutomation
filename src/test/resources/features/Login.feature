@@ -1,3 +1,5 @@
+
+@Login
 Feature: Login
   As a authorized	users	should	be	able	to	login to the application.
 
