@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources/features", //path to features
         glue = "com/zerobank/stepdefinitions",  //path to the step definitions
         dryRun =false,
-        tags = "@Pay_Bill",
+        tags = "",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json"
         }
